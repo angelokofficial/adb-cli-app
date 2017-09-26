@@ -20,6 +20,6 @@ set /p choice="‚ë¡®à: "
 if "%choice%"=="1" (cd bin/modules && cls && connect && exit)
 if "%choice%"=="2" (cd bin/modules && cls && pushpull && exit)
 if "%choice%"=="3" (cd bin/modules && cls && rootmode && exit)
-if "%choice%"=="4" (exit) 
+if "%choice%"=="4" (exit)
 goto m1
-pause
+pause 
