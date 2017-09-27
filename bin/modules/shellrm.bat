@@ -1,7 +1,7 @@
 @echo off
 title ADB CLI by Angelok
 set title=                      Android Debug Bridge CLI Application
-set version=                                  v0.2 beta
+set version=                                  v0.3 beta
 set dashes=--------------------------------------------------------------------------------
 set txt1=Передача файлов - Удаление файла/папки
 echo %title%
@@ -18,6 +18,6 @@ echo.
 set /p choice="Выбор: "
 if "%choice%"=="1" (echo. && rm && exit)
 if "%choice%"=="2" (echo. && rmd && exit)
-if "%choice%"=="3" (cls && pushpull && exit)
+if "%choice%"=="3" (cd ../.. && cls && app && exit)
 goto m1
 pause

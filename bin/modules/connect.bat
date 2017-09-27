@@ -1,7 +1,7 @@
 @echo off
 title ADB CLI by Angelok
 set title=                      Android Debug Bridge CLI Application
-set version=                                  v0.2 beta
+set version=                                  v0.3 beta
 set dashes=--------------------------------------------------------------------------------
 set txt1=Подключение устройства
 echo %title%
