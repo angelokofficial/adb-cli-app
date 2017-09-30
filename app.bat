@@ -3,25 +3,25 @@ title ADB CLI by Angelok
 set title=                      Android Debug Bridge CLI Application
 set version=                                  v0.3 beta
 set dashes=--------------------------------------------------------------------------------
-set txt1=Ζ’Β«Β ΒΆΒ­Β®Β¥ Β¬Β¥Β­Γ®
+set txt1=ƒ« Ά­®¥ ¬¥­ξ
 echo %title%
 echo %version%
 echo %dashes%
 echo %txt1%
 :m1
 echo.
-echo [1] ΒΒ®Β¤ΒªΒ«Γ®Γ§Β¥Β­Β¨Β¥ Γ£Γ΅ΓΆΓ Β®Β©Γ΅ΓΆΒΆΒ 
-echo [2] ΒΒ¥Γ Β¥Β¤Β Γ§Β  Γ¤Β Β©Β«Β®ΒΆ
-echo [3] β€Γ΅ΓΆΒ Β­Β®ΒΆΒªΒ  APK
+echo [1] ®¤ª«ξη¥­¨¥ γαβΰ®©αβΆ 
+echo [2] ¥ΰ¥¤ η  δ ©«®Ά
+echo [3] “αβ ­®Άª  APK
 echo.
-echo [4] ΒΒ¥Β¦Β¨Β¬ Γ΅Γ£Β―Β¥Γ Β―Β®Β«Γ¬Β§Β®ΒΆΒ ΓΆΒ¥Β«Γ―
-echo [5] β€Γ«Γ¥Β®Β¤
+echo [4] ¥¦¨¬ αγ―¥ΰ―®«μ§®Ά β¥«ο
+echo [5] ‚λε®¤
 echo.
-set /p choice="β€Γ«Β΅Β®Γ : "
+set /p choice="‚λ΅®ΰ: "
 if "%choice%"=="1" (cd bin/modules && cls && connect && exit)
 if "%choice%"=="2" (cd bin/modules && cls && pushpull && exit)
 if "%choice%"=="3" (cd bin/modules && cls && install && exit)
 if "%choice%"=="4" (cd bin/modules && cls && rootmode && exit)
-if "%choice%"=="5" (exit) 
+if "%choice%"=="5" (exit)
 goto m1
 pause
