@@ -8,7 +8,6 @@
 2. Some filemanager features (push/pull/delete files and folders)
 3. ADB root mode
 4. Android packages (APK) install
-5. Reboot device in partitions (like recovery or fastboot) 
+5. Reboot device in a partitions (like recovery or fastboot) 
 #### TODO
 1. English localization
-2. Terminal (shell)
