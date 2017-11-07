@@ -2,7 +2,7 @@
 ### Batch Android Debug Bridge application with simple console interface. Just for ease of use.
 [![pic](https://img.shields.io/badge/status-beta-red.svg) ![pic](https://img.shields.io/badge/version-0.4-blue.svg)](https://github.com/angelokofficial/adb-cli-app/releases)
 #
-![pic](https://i.imgur.com/G2C4Vjx.png)
+![pic](https://i.imgur.com/qGn6Xiu.png)
 #### Features
 1. Device connect (USB/WI-FI)
 2. Some filemanager features (push/pull/delete files and folders)
